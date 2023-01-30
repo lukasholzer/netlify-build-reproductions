@@ -1,3 +1,3 @@
 [build]
-environment = { GO_VERSION = "1.9.5" }
+# environment = { GO_VERSION = "1.9.5" }
 command = "go version"
