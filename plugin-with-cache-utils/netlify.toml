@@ -5,4 +5,4 @@ publish = "cache/dist"
 
 # ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF ."
 [[plugins]]
-package = "/plugins/netlify-plugin-cache"
+package = "/netlify-plugin-cache"
