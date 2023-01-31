@@ -2,7 +2,7 @@
 command = "node build.js"
 environment = { NODE_VERSION = "19" }
 publish = "cache/dist"
-ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF ."
 
+# ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF ."
 [[plugins]]
 package = "/plugins/netlify-plugin-cache"
