@@ -11,6 +11,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.0.12"
+    "astro": "^2.0.12",
+    "netlify": "^13.1.2"
+  },
+  "devDependencies": {
+    "@netlify/build": "^29.5.7"
   }
 }
