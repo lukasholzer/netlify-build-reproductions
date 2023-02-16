@@ -11,7 +11,7 @@ export const onPreBuild = async ({
   const api = new NetlifyAPI(NETLIFY_API_TOKEN);
   const response = await api.updateSiteDeploy({
     site_id: SITE_ID,
-    deploy_id: DEPLOY_ID,
+    deploy_id: process.env.DEPLOY_ID,
     body: {
       draft: true,
     },
