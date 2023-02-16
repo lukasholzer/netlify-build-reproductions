@@ -10,9 +10,6 @@
     "preview": "astro preview",
     "astro": "astro"
   },
-  "devDependencies": {
-    "@netlify/build": "^29.5.7"
-  },
   "dependencies": {
     "astro": "^2.0.12"
   }
