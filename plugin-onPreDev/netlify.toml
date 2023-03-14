@@ -1,0 +1,17 @@
+[build]
+command = "npm run build"
+environment = { NODE_VERSION = "19" }
+
+# ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF ."
+[[plugins]]
+package = "/plugin"
+
+[[headers]]
+for = "/*"
+
+[headers.values]
+x-test = "from-toml "
+x-other = "asdf2"
+
+[dev]
+autoLaunch = false
