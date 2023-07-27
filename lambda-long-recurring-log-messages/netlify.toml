@@ -1,0 +1,4 @@
+[[redirects]]
+to = "/.netlify/functions/log"
+from = "/"
+status = 200
