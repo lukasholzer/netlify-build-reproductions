@@ -1,0 +1,5 @@
+[build]
+
+# edge_functions = "api"
+[functions]
+directory = "api"
